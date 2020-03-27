@@ -46,7 +46,13 @@ body {
     font-size: 1.25rem;
 }
 
-.test {
-    margin: 5px 0;
-    border: solid black 2px;
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
 }
