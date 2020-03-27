@@ -1,0 +1,44 @@
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
+body {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#nameHeader {
+    background-color: darkgray;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#mainNav {
+    width: 100%;
+    padding: 10px 0;
+    background-color: burlywood;
+}
+
+#mainNav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#mainNav li {
+    list-style-type: none;
+}
+
+#mainNav a {
+    text-decoration: none;
+}
