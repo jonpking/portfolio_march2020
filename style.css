@@ -13,32 +13,40 @@ body {
     margin: 0 auto;
 }
 
-#nameHeader {
+#headerBar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#headerName {
     background-color: darkgray;
-    padding: 10px 0;
-    margin: 10px 0;
+    font-size: 2rem;
 }
 
-h1 {
+#headerName h1 {
     text-align: center;
-    font-size: 3rem;
 }
 
-#mainNav {
+#headerNav {
     width: 100%;
     padding: 10px 0;
     background-color: burlywood;
 }
 
-#mainNav ul {
+#headerNav ul {
     display: flex;
     justify-content: space-evenly;
 }
 
-#mainNav li {
+#headerNav li {
     list-style-type: none;
 }
 
-#mainNav a {
+#headerNav a {
     text-decoration: none;
+}
+
+.test {
+    margin: 5px 0;
+    border: solid black 2px;
 }
