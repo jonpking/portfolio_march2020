@@ -50,9 +50,47 @@ body {
     display: flex;
     flex-direction: column;
     border: solid black 1px;
+    width: 84%;
+    margin-top: 40px;
+}
+
+.projectContent p {
+    text-align: center;
+}
+
+.projectContentLeft {
+    float: left;
+}
+
+.projectContentLeft h3 {
+    margin-left: 25%;
+}
+
+.projectContentRight {
+    float: right;
+}
+
+.projectContentRight h3 {
+    margin-right: 25%;
 }
 
 .projectContent {
     display: flex;
     flex-direction: row;
+}
+
+.projectContentWrapper h3 {
+    text-align: center;
+}
+
+.projectContentButtons {
+    align-self: center;
+}
+
+.projectContentButtonsLeft {
+    margin-left: 25%;
+}
+
+.projectContentButtonsRight {
+    margin-right: 25%;
 }
