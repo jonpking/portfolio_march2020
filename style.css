@@ -81,21 +81,21 @@ body {
     margin: 0 auto;
 }
 
-#sectionHeader {
+.sectionHeader {
     margin-top: 25px;
     padding: 10px 0;
     text-align: center;
     border: solid black 1px;
 }
 
-#sectionHeader h1 {
+.sectionHeader h1 {
     font-size: 2rem;
 }
 
-#sectionHeader h2 {
+.sectionHeader h2 {
     font-size: 1.25rem;
 }
 
-#sectionHeader hr {
+.sectionHeader hr {
     width: 75%;
 }
