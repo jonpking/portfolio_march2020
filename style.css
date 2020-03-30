@@ -80,3 +80,22 @@ body {
     max-width: 960px;
     margin: 0 auto;
 }
+
+#sectionHeader {
+    margin-top: 25px;
+    padding: 10px 0;
+    text-align: center;
+    border: solid black 1px;
+}
+
+#sectionHeader h1 {
+    font-size: 2rem;
+}
+
+#sectionHeader h2 {
+    font-size: 1.25rem;
+}
+
+#sectionHeader hr {
+    width: 75%;
+}
