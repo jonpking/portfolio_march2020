@@ -87,19 +87,42 @@ body {
 
 .sectionHeader {
     margin-top: 25px;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
     border: solid black 1px;
 }
 
 .sectionHeader h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .sectionHeader h2 {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
 }
 
 .sectionHeader hr {
     width: 75%;
+}
+
+.contentSection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.contentBlock {
+    border: solid black 1px;
+
+}
+
+.aboutBlock {
+    margin-right: 50px;
+}
+
+#portrait {
+    width: 250px;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+    object-position: 50% 75%;
 }
