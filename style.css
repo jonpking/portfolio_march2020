@@ -9,16 +9,21 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
 
 body {
     width: 100%;
-    max-width: 960px;
+    /* max-width: 960px; */
     margin: 0 auto;
+}
+
+#headerBackground {
+    background-color: darkslateblue;
 }
 
 #headerBar {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     background-color: burlywood;
     height: 50px;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 #headerBar ul {
@@ -69,4 +74,9 @@ body {
     padding: 8.5px 0;
     width: 25px;
     height: 25px;
+}
+
+#bodyContent {
+    max-width: 960px;
+    margin: 0 auto;
 }
