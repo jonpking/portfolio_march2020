@@ -9,7 +9,6 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
 
 body {
     width: 100%;
-    /* max-width: 960px; */
     margin: 0 auto;
 }
 
@@ -53,6 +52,11 @@ body {
 
 #headerNav {
     flex-grow: 2;
+}
+
+#headerNav li {
+    border: solid black 1px;
+    padding: 5px 30px;
 }
 
 #headerLinks {
