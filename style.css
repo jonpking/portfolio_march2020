@@ -32,25 +32,44 @@ body {
     flex-grow: 2;
 }
 
-#headerNav ul {
+#headerBar ul {
     display: flex;
     justify-content: space-evenly;
 }
 
-#headerNav li {
+#headerBar li {
     list-style-type: none;
 }
 
-#headerNav a {
+#headerBar a {
     text-decoration: none;
     font-size: 1.25rem;
+}
+
+#headerLinks {
+    width: 100px;
+}
+
+#headerLinks img {
+    margin-top: 3.4px;
+    width: 25px;
+    height: 25px;
+}
+
+#headerLinks ul {
+    justify-content: center;
+}
+
+#headerLinks li {
+    margin-right: 10px;
 }
 
 .projectContentWrapper {
     display: flex;
     flex-direction: column;
     border: solid black 1px;
-    width: 84%;
+    width: 600px;
+    height: 300px;
     margin-top: 40px;
 }
 
@@ -68,6 +87,24 @@ body {
 
 .projectContentRight {
     float: right;
+    position: relative;
+}
+.projectContentWrapper.projectContentRight {
+    border-right: 0 !important;
+
+}
+
+.projectContentRight::after {
+    content: '';
+    width: 300px;
+    height: 300px;
+    /* background-color: black; */
+    position: absolute;
+    left: 600px;
+    top: -1px;
+    border-left: 0 !important;
+    border: solid black 1px;
+
 }
 
 .projectContentRight h3 {
@@ -77,6 +114,8 @@ body {
 .projectContent {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 20px;
 }
 
 .projectContentWrapper h3 {
@@ -84,7 +123,7 @@ body {
 }
 
 .projectContentButtons {
-    align-self: center;
+    /* align-self: center; */
 }
 
 .projectContentButtonsLeft {
