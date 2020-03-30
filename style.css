@@ -21,6 +21,20 @@ body {
     height: 50px;
 }
 
+#headerBar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#headerBar li {
+    list-style-type: none;
+}
+
+#headerBar a {
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
 #headerName {
     background-color: darkgray;
     font-size: 1.5rem;
@@ -36,31 +50,10 @@ body {
     flex-grow: 2;
 }
 
-#headerBar ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#headerBar li {
-    list-style-type: none;
-}
-
-#headerBar a {
-    text-decoration: none;
-    font-size: 1.25rem;
-}
-
 #headerLinks {
     width: 125px;
     background-color: darkseagreen;
     padding-left: 15px;
-}
-
-#headerLinks img {
-    margin-top: 3.4px;
-    padding: 8.5px 0;
-    width: 25px;
-    height: 25px;
 }
 
 #headerLinks ul {
@@ -69,4 +62,11 @@ body {
 
 #headerLinks li {
     margin-right: 15px;
+}
+
+#headerLinks img {
+    margin-top: 3.4px;
+    padding: 8.5px 0;
+    width: 25px;
+    height: 25px;
 }
