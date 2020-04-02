@@ -130,46 +130,54 @@ body {
     object-position: 50% 75%;
 }
 
-#projectSection {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+#projectSection > .projectBlock:first-of-type {
+    margin-top: 25px;
 }
 
 .projectBlock {
     border: solid black 1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 400px;
-    width: 400px;
+    height: 200px;
     margin: 10px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .projectPicArea {
     border: solid black 1px;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+}
+
+.projectPicArea img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
 }
 
 .projectNonPicArea {
-    height: 50%;
-    border: solid black 1px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.projectTitleArea {
     display: flex;
     justify-content: center;
-    align-items: stretch;
 }
 
 .projectTextArea {
-    width: 75%;
-    border: solid black 1px;
+    display: flex;
+    justify-content: center;
 }
 
 .projectButtonArea {
-    width: 25%;
-    border: solid black 1px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.projectButtonArea button {
+    width: 40%;
 }
