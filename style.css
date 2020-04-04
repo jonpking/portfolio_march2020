@@ -191,3 +191,56 @@ body {
 .projectButtonArea button {
     width: 40%;
 }
+
+#contactArea {
+    /* border: solid black 1px; */
+    margin-top: 25px;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: solid #ccc 1px;
+    border-radius: 1em;
+}
+
+#contactArea ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+form label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+form input, form textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: solid #999 1px;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #000;
+}
+
+form textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+form .contactButton {
+    padding-left: 90px;
+}
+
+form button {
+    margin-left: .5em;
+}
