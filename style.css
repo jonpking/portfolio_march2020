@@ -111,7 +111,7 @@ body {
 #aboutSection {
     display: flex;
     justify-content: space-around;
-    margin: 0 10px;
+    margin: 0 50px;
 }
 
 .contentBlock {
@@ -147,7 +147,7 @@ body {
 .projectBlock {
     border: solid black 1px;
     height: 200px;
-    margin: 10px;
+    margin: 10px 50px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -195,20 +195,22 @@ body {
 #contactArea {
     /* border: solid black 1px; */
     margin-top: 25px;
-}
-
-form {
-    margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-    border: solid #ccc 1px;
-    border-radius: 1em;
+    margin-bottom: 50px;
 }
 
 #contactArea ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+    padding: 1em;
+    border: solid black 1px;
+    border-radius: 1em;
 }
 
 form li + li {
