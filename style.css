@@ -73,6 +73,10 @@ body {
     justify-content: center;
 }
 
+#headerLinks ul a {
+    display: block;
+}
+
 #headerLinks li {
     margin-right: 15px;
 }
@@ -112,11 +116,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 0 50px;
-}
-
-.contentBlock {
-    border: solid black 1px;
-    margin-top: 25px;
+    padding-top: 25px;
 }
 
 #aboutTextBlock {
@@ -125,6 +125,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: solid black 1px;
 }
 
 #aboutTextBlock p {
@@ -138,6 +139,7 @@ body {
     display: block;
     object-fit: cover;
     object-position: 50% 75%;
+    border: solid black 1px;
 }
 
 #projectSection > .projectBlock:first-of-type {
@@ -195,25 +197,29 @@ body {
 #contactArea {
     display: flex;
     justify-content: space-around;
-    margin: 25px 0 50px 0;
+    margin: 25px auto 50px auto;
     border: solid black 1px;
-    width: 500px;
+    width: 600px;
     padding: 1em;
     border-radius: 1em;
 }
 
 #contactForm {
-
+    border: solid blue 1px;
 }
 
 #contactLinks {
-
+    border: solid green 1px;
 }
 
 #contactLinks img{
     height: 40px;
     width: 40px;
     margin: 10px;
+}
+
+#contactLinks ul a {
+    display: block;
 }
 
 #contactArea ul {
