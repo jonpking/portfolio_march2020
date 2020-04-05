@@ -222,29 +222,43 @@
         </div>
 
         <div id="contactArea">
-            <form>
+            <div id="contactForm">
+                <form>
+                    <ul>
+                        <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name">
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="user_email">
+                        </li>
+                        <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                        <li class="contactButton">
+                            <button type="submit">
+                                Send your message
+                            </button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div id="contactLinks">
                 <ul>
                     <li>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name">
+                        <a href="#"><img src="images/github.png" alt=""></a>
                     </li>
                     <li>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="user_email">
+                        <a href="#"><img src="images/linkedin.png" alt=""></a>
                     </li>
                     <li>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                    <li class="contactButton">
-                        <button type="submit">
-                            Send your message
-                        </button>
+                        <a href="#"><img src="images/facebook.png" alt=""></a>
                     </li>
                 </ul>
-            </form>
+            </div>
         </div>
-
     </div>
 
 </body>
